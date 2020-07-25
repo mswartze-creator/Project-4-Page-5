@@ -1,0 +1,176 @@
+/* Global Modifications */
+
+ul {
+  list-style-type: circle;
+background-color: #B0C4DE
+}
+img:hover {
+  transform: scaleX(-1);
+}
+div.polaroid {
+  width: 80%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+img {max-width: 100%
+ height: auto;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+h1 {
+	padding: .2em .5em 1em;
+	}
+
+h2 {
+	padding: .2em;
+	text-align: center;
+	}
+
+.banner {
+	display: block;
+	margin: auto;
+	width: 80%;
+	}
+
+header.title {
+	position: fixed;
+	top: 0;
+	height: 75px;
+	width: 100%;
+	background: B0C4DE;
+	float: none;
+	}
+	
+footer {
+	position: fixed;
+	bottom: 0;
+	height: 100px;
+	width: 100%;
+	background: B0C4DE;
+	}
+
+#wrapper {
+	margin: 80px 0 105px 0;
+	}
+
+article {
+	float: none;
+	}
+
+article p:last-of-type {
+	padding: 0 0 2em;
+	}
+
+
+
+/* Modifications to Page One / Fixed Position Layout */
+
+aside.one {
+	position: fixed;
+	left: 0;
+	width: 160px;
+	padding: 0 .4em;
+	}
+
+div.articles1 {
+	position: fixed;
+	left: 160px;
+	height: 400px;
+	width: 750px;
+	padding: 0 .2em;
+	overflow: scroll;
+	}
+
+img.body1 {
+	width: 300px;
+	}
+
+/* Modifications to Page Two / Floating Position Layout */
+
+aside.two {
+	float: left;
+	min-width: 130px;
+	}
+
+div.articles2 {
+	min-height: 400px;
+	min-width: 350px;
+	padding: 0 30px;
+	overflow: scroll;
+	}
+	
+.left2 {
+	float: left;
+	margin: 10px 35px 10px 0px;
+	width: 170px;
+	}
+
+.right2 {
+	float: right;
+	margin: 10px 0px 10px 35px;
+	width: 170px;
+	}
+
+
+
+/* Modifications to Page Three / Relative Position Layout */
+
+aside.three {
+	float: left;
+	min-width: 130px;
+	}
+
+div.articles3 {
+	min-height: 400px;
+	min-width: 350px;
+	padding: 0 1em;
+	overflow: scroll;
+	}
+
+.right3 {
+	float: right;
+	margin: 1em 0em 1em 2em;
+	width: 25%;
+	}
+
+.left3 {
+	float: left;
+	margin: 1em 2em 1em 0;
+	width: 25%;
+	}
+
+
+/* Modifications to Page Four / Inline-Block Layout */
+
+aside.four {
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	min-width: 130px;
+	}
+
+div.articles4 {
+	display: inline-block;
+	vertical-align: top;
+	width: 75%;
+	min-height: 400px;
+	min-width: 350px;
+	}
+
+.right4 {
+	float: right;
+	margin: 1em 0em 1em 2em;
+	width: 25%;
+	}
+
+.left4 {
+	float: left;
+	margin: 1em 2em 1em 0;
+	width: 25%;
+	}
